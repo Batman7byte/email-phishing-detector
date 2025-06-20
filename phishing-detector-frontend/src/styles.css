@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  animation: fadeIn 1s;
+}
+
+h1 {
+  color: #00ffcc; /* Neon teal */
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+button {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #222;
+  color: #ffcc00; /* Neon yellow */
+}
+
+.table tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.neon {
+  color: #ff00ff; /* Neon pink */
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+ }
+  to {
+    opacity: 1;
+  }
+}
