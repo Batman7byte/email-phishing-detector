@@ -168,6 +168,6 @@ git add README.md
 git commit -m "Add final full README with setup and credential guide"
 git push
 ````
-
----
+Important!!
+In style.css in button section add Margin: 50x; and padding: 20px;
 
